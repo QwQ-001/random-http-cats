@@ -19,9 +19,9 @@ height: 100vh;
   500, 501, 502, 503, 504, 505, 507, 508, 511
 ];
         var b=document.createElement('tupian')
-  function a() { return zhuangtaima[Math.floor(Math.random() * zhuangtaima.length)];
+  function a() { return zhuangtaima[Math.floor(Math.random() * zhuangtaima.length)] + '.jpg';
   }      ;var c=function () {
-      b.src = a()
+      b.src = "https://http.cat/images/" + a()
   };
 
         c(); b.addEventListener("click", c)
