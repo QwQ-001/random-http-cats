@@ -11,6 +11,7 @@ height: 100vh;
 <body>
     <img id="tupian" alt="" style="width:100vw">
     <script>
+        // this varibale is http codes
         var zhuangtaima = [
   100, 101, 102, 103, 
   200, 201, 202, 203, 204, 205, 206, 207, 208, 226,
@@ -18,9 +19,9 @@ height: 100vh;
   400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 418, 429,
   500, 501, 502, 503, 504, 505, 507, 508, 511
 ];
-        var b=document.getElementById('tupian')
+        var b=document.getElementById('tupian') /*this varible are tupian*/
   function a() { return zhuangtaima[Math.floor(Math.random() * zhuangtaima.length)] + '.jpg';
-  }      ;var c=function () {
+  }      ;var c=function () {  // make zifuchuan plus zifuchuan
       b.src = "https://http.cat/images/" + a()
   };
 
